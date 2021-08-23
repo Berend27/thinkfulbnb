@@ -95,6 +95,12 @@ header nav ul li a:hover {
 }
 
 /* -------  Search Form ------- */
+.field-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px;
+}
+
 form {
   border: 2px solid #ff385c;
   padding: 10px;
@@ -133,6 +139,20 @@ footer p {
 
 /* -------  Media Query ------- */
 @media all and (min-width: 580px) {
+  .field-container {
+    flex-direction: column;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  form label {
+    font-weight: normal;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -140,4 +160,5 @@ footer p {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
 }
