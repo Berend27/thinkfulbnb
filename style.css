@@ -86,7 +86,7 @@ header nav ul li a {
 
 header nav ul li:last-child a {
    /* making the nav appear to be centered */
-  // todo: I don't think this is needed in this situation, so delete this
+  /* todo: I don't think this is needed in this situation, so delete this */
 }
 
 header nav ul li a:hover {
@@ -94,8 +94,8 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
-//TODO: media query for desktop, start with the nav bar
-// TODO: are the links supposed to work?
+/* TODO: media query for desktop, start with the nav bar */
+
 /* -------  Search Form ------- */
 form {
   border: 2px solid #ff385c;
