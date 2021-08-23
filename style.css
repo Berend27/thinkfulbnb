@@ -136,6 +136,12 @@ form button {
   flex-direction: column;
 }
 
+#about div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 #about h2 {
   margin-bottom: 20px;
 }
@@ -158,6 +164,11 @@ footer p {
 
 /* -------  Media Query ------- */
 @media all and (min-width: 580px) {
+  #about div {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
   .field-container {
     flex-direction: column;
   }
