@@ -94,8 +94,6 @@ header nav ul li a:hover {
   text-decoration: none;
 }
 
-/* TODO: media query for desktop, start with the nav bar */
-
 /* -------  Search Form ------- */
 form {
   border: 2px solid #ff385c;
@@ -134,3 +132,12 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (min-width: 580px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
