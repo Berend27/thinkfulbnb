@@ -102,7 +102,7 @@ header nav ul li a:hover {
 .field-container {
   display: flex;
   justify-content: space-between;
-  margin: 10px 10px;
+  margin: 10px;
 }
 
 form {
@@ -177,6 +177,16 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  form button {
+    margin: 10px;
+    width: 170px;
+  }
+
+  form select,
+  form input {
+    width: 170px;
   }
 
   .group {
