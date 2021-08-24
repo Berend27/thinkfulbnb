@@ -64,7 +64,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 18vw;
   color: #fff;
 }
 
@@ -101,12 +101,18 @@ header nav ul li a:hover {
 /* -------  Search Form ------- */
 .field-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 10px;
+  width: 100%;
 }
 
 form {
+  align-items: center;
   border: 2px solid #ff385c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 10px;
 }
 
@@ -171,22 +177,24 @@ footer p {
 
   .field-container {
     flex-direction: column;
+    width: min-content;
   }
 
   form {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
   form button {
     margin: 10px;
-    width: 170px;
+    width: 150px;
   }
 
   form select,
   form input {
-    width: 170px;
+    width: 150px;
   }
 
   .group {
@@ -200,6 +208,11 @@ footer p {
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .logo {
+    font-size: 44px;
+    margin-right: 10px;
   }
 
   main img {
